@@ -1,18 +1,15 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person();
-        person.dateOfBirth = "22/08/2011";
-        person.name = "Amoo Arad";
-        person.nationality = "Iranian";
-        person.passport = new String[] { person.name, person.nationality, person.dateOfBirth };
-        person.seatNumber = 5;
-        System.out.println("\n" + person.name);
-        System.out.println(person.nationality);
-        System.out.println(person.dateOfBirth);
-        System.out.println(Arrays.toString(person.passport));
-        System.out.println(person.seatNumber + "\n");
 
+        Car s = new Car("Ferrari", 4_000_000, 2023, "Orange");
+
+        Car r = new Car("Bugatti", 5_000_000, 2023, "Purple");
+
+
+
+        System.out.println("This " + s.make + " is worth $" + s.price + 
+        ". It was built in " + s.year + ". It is " + s.color + ".\n");
+        System.out.println("This " + r.make + " is worth $" + r.price + 
+        ". It was built in " + r.year + ". It is " + r.color + ".\n");
     }
 }
