@@ -7,9 +7,9 @@ public class Main {
         System.out.println("Name: " + person.getName() + "\n" +
                 "Nationality: " + person.getNationality() + "\n" +
                 "Date of Birth: " + person.getDateOfBirth() + "\n" +
-                "Passport: " + person.getPassport() + "\n" + // Added + operator here
+                "Passport: " + person.getPassport() + "\n" + 
                 "Seat Number: " + person.getSeatNumber() + "\n");
 
     }
-    
+
 }
